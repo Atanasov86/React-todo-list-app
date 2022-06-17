@@ -43,6 +43,7 @@ const Todo = ({id, name, completed, dueDate}) => {
       <Modal
         onClose={() => setShowModal(false)}
         showModal={showModal}
+        updateTodo={updateTodo}
         name={name}
         dueDate={dueDate}
       />
